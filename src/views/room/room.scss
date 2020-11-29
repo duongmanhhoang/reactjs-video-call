@@ -1,0 +1,42 @@
+.room {
+    &__video-container {
+        background: black;
+        height: 100%;
+
+        &--user-video{
+            width: 100%;
+        }
+
+        &--user-name {
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+    }
+
+    &__left-bar {
+        position: relative;
+        height: 100%;
+
+        &--text-entry {
+            height: 5%;
+            position: absolute;
+            bottom: 0;
+            background: #e8e8e8
+        }
+
+        &--chat-content {
+            height: 95%;
+            overflow-y: scroll;
+            padding: 0 15px;
+
+            &--sender {
+                text-align: right;
+            }
+
+            &--receiver {
+                text-align: left;
+            }
+        }
+    }
+}

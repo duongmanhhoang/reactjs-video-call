@@ -1,0 +1,19 @@
+@import "./shared/color.scss";
+
+html,
+body,
+.App,
+#root {
+    height: 100%;
+}
+
+.button {
+    &__primary {
+        background: $info;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
